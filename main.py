@@ -3,7 +3,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandle
 from handlers.start import start
 from handlers.callback import handle_callback, handle_message
 
-TOKEN = "8534051142:AAGBafxhXxVMds5aYn9NChfNrz-9e_xTHRs"
+TOKEN = "8575080180:AAEfNq46gHi9ImtpOfErTaITv7BORkuCxyI"
 
 def main():
     app = ApplicationBuilder().token(TOKEN).build()
@@ -18,3 +18,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
