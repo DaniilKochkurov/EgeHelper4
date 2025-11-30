@@ -974,7 +974,7 @@ async def cmd_feedback(update: Update, context: ContextTypes.DEFAULT_TYPE):
     else:
         await update.message.reply_text("Пока нет оценок.", reply_markup=InlineKeyboardMarkup(keyboard))
 
-app = ApplicationBuilder().token("8579753971:AAF4Uu9mbCSiUEydp5YY0RLjSVzt3egHIv8").build()
+app = ApplicationBuilder().token("8534051142:AAGBafxhXxVMds5aYn9NChfNrz-9e_xTHRs").build()
 
 app.add_handler(CommandHandler("menu", cmd_menu))
 app.add_handler(CommandHandler("exam", cmd_ekzamen))
@@ -987,5 +987,6 @@ app.add_handler(CommandHandler("feedback", cmd_feedback))
 
 # твой CallbackQueryHandler
 # app.add_handler(CallbackQueryHandler(handle_callback))
+
 
 app.run_polling()
