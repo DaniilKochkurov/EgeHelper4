@@ -3,7 +3,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandle
 from handlers.start import start
 from handlers.callback import handle_callback, handle_message
 
-TOKEN = "8579753971:AAF4Uu9mbCSiUEydp5YY0RLjSVzt3egHIv8"
+TOKEN = "8534051142:AAGBafxhXxVMds5aYn9NChfNrz-9e_xTHRs"
 
 def main():
     app = ApplicationBuilder().token(TOKEN).build()
@@ -16,4 +16,5 @@ def main():
     app.run_polling()
 
 if __name__ == "__main__":
+
     main()
